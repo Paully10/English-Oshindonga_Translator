@@ -89,4 +89,4 @@ The current highest-value contribution is data, not code: more verified Englishâ
 ## License
 
 Build Fully by Paully Nampala
-This is just the Beat, A larger model is on it's way, with all our Namibian indegenious languages!!!
+This is just the Beat..... A larger model is on it's way, with all our Namibian indegenious languages!!!
