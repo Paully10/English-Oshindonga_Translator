@@ -22,16 +22,6 @@ This is a rule-based system, not a trained AI model. It does not "learn" — it 
 - **No sense disambiguation.** When a word has multiple valid translations (e.g. "water" as a noun vs. a verb form), the system currently just prefers whichever source was more curated — not which sense fits the sentence.
 - **No sentence-level fluency guarantees.** Output is understandable but not always grammatically correct Oshindonga.
 
-## Project structure
-
-```
-oshindonga_translator/
-├── build_dictionary.py        # Consolidates all raw data sources into one clean dictionary
-├── translator.py               # The translation engine + CLI
-├── oshindonga_dictionary.json  # Consolidated dictionary (5,424 English entries, ~9,300 translation candidates)
-├── needs_review.json           # Entries auto-flagged as noisy (example sentences mixed into raw data)
-└── README.md
-```
 
 ## Data sources
 
